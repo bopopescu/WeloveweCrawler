@@ -1,0 +1,4 @@
+*.pyc
+*.py~
+my_settings.py
+*.swp

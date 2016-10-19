@@ -1,0 +1,15 @@
+/opt/logs/nginx/access/log {
+    daily
+    dateext
+    dateformat.%Y-%m-%d.log
+    compress
+    rotate 7
+}
+
+/opt/logs/nginx/error/log {
+    daily
+    dateext
+    dateformat.%Y-%m-%d.log
+    compress
+    rotate 7
+}
