@@ -6,8 +6,8 @@ import re
 import xlrd
 import torndb
 
-userEmail = 'taoflmp@yeah.net'
-passPass = 'tafee231400'
+userEmail = '*****'
+passPass = '*****'
 rootUrl = 'http://www.welovewe.com/Data/'
 playerfetching, playerfetched = set(), set()
 countryfetching, countryfetched = set(), set()
@@ -18,7 +18,7 @@ db_link = torndb.Connection(
 			host = '127.0.0.1:3306', 
 			database = 'welovewe', 
 			user = 'root', 
-			password = 'tafee231400'
+			password = '*****'
 		)
 
 BIRTH_RE = re.compile(r'(\d{4})-(\d{2})-(\d{2})')
